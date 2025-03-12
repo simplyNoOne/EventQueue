@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Type1Publisher</artifactId>
+    <artifactId>Type2Publisher</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -45,5 +45,4 @@
             <version>0.10.2</version>
         </dependency>
     </dependencies>
-
 </project>
