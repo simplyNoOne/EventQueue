@@ -1,11 +1,10 @@
 package domain;
-import javax.annotation.processing.Generated;
 import java.io.Serializable;
 
-public class Type1Event implements Serializable {
+public class Type2Event implements Serializable {
     private final String id;
 
-    public Type1Event(String id) {
+    public Type2Event(String id) {
         this.id = id;
     }
 

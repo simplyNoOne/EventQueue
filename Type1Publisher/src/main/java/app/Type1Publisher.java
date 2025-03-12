@@ -54,7 +54,6 @@ public class Type1Publisher {
 
     }
 
-
     void publishType1Event(Channel channel) {
         Type1Event event = new Type1Event(UUID.randomUUID().toString());
         try (ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -67,6 +66,5 @@ public class Type1Publisher {
         } catch (Exception e) {
             logger.severe(e.getMessage());
         }
-
     }
 }
